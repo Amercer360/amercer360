@@ -1,0 +1,58 @@
+img {
+	height: 30vw;
+	width: 30vw;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+	/* Start the shake animation and make the animation last for 0.5 seconds */
+	animation: shake 5s;
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite;
+}
+.beet {
+	position: absolute;
+	height: 50%;
+	width: 50%;
+}
+html {
+  background: url("../images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@keyframes shake {
+    0% { transform: translate(-51%, -51%) rotate(0deg); }
+    5% { transform: translate(-49%, -48%) rotate(-1deg); }
+    10% { transform: translate(-47%, -50%) rotate(1deg); }
+    15% { transform: translate(-53%, -52%) rotate(0deg); }
+    20% { transform: translate(-51%, -49%) rotate(1deg); }
+    25% { transform: translate(-49%, -52%) rotate(-1deg); }
+    30% { transform: translate(-47%, -51%) rotate(0deg); }
+    35% { transform: translate(-53%, -51%) rotate(-1deg); }
+    40% { transform: translate(-49%, -49%) rotate(1deg); }
+    45% { transform: translate(-51%, -52%) rotate(0deg); }
+    50% { transform: translate(-51%, -48%) rotate(-1deg); }
+		55% { transform: translate(-50%, -50%) rotate(-1deg); }
+		60% { transform: translate(-50%, -50%) rotate(-1deg); }
+		65% { transform: translate(-50%, -50%) rotate(-1deg); }
+		70% { transform: translate(-50%, -50%) rotate(-1deg); }
+		75% { transform: translate(-50%, -50%) rotate(-1deg); }
+		80% { transform: translate(-50%, -50%) rotate(-1deg); }
+		85% { transform: translate(-50%, -50%) rotate(-1deg); }
+		90% { transform: translate(-50%, -50%) rotate(-1deg); }
+		95% { transform: translate(-50%, -50%) rotate(-1deg); }
+		100% { transform: translate(-50%, -50%) rotate(-1deg); }
+}
+img:hover {
+	height: 30vw;
+	width: 30vw;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+	animation-play-state: paused
+}
