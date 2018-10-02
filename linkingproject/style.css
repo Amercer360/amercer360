@@ -5,6 +5,7 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 10%;
+  margin-bottom: 70%;
   background-color: white;
   width: 70vw;
   height:90vw;
@@ -15,9 +16,15 @@ p {
   margin-right: 10%;
   font-family: 'Overlock', cursive;
   font-size: 1.5vw;
+  text-indent: 2vw;
+  display: inline-block;
 }
 h1 {
   font-family: 'Shrikhand', cursive;
   font-size: 3vw;
   text-align: center;
+  padding-top: 2vw;
+}
+.hidden {
+  visibility: hidden;
 }
