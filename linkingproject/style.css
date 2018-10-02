@@ -1,0 +1,23 @@
+body {
+  background-color: #fcebc7;
+}
+.page{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+  background-color: white;
+  width: 70vw;
+  height:90vw;
+  box-shadow: 5px 10px;
+}
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Overlock', cursive;
+  font-size: 1.5vw;
+}
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3vw;
+  text-align: center;
+}
