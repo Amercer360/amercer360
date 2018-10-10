@@ -1,17 +1,31 @@
 p{
-text-indent: 2vw;
-margin-left: 10vw;
-margin-right: 10vw;
+text-indent: 50px;
+margin-left: 10px;
+margin-right: 900px;
+font-family: 'Quattrocento Sans', sans-serif;
+font-size: 20px;
 }
 h1{
-text-align: center;
+text-align: left;
+font-family: 'Notable', sans-serif;
+margin-left: 0px;
+font-size: 60px;
 }
 h2{
-text-align: center;
+text-align: left;
+font-family: 'Satisfy', cursive;
+margin-left: 40px;
+font-size: 30px;
 }
 h3{
-text-align: center;
+text-align: left;
+font-family: 'Satisfy', cursive;
+margin-left: 60px;
+font-size: 30px;
 }
 h4{
-text-align: center;
+text-align: left;
+font-family: 'Satisfy', cursive;
+margin-left: 20px;
+font-size: 40px;
 }

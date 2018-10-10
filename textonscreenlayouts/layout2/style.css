@@ -1,17 +1,38 @@
 p{
-text-indent: 2vw;
-margin-left: 10vw;
-margin-right: 10vw;
+text-indent: 30px;
+margin-left: 500px;
+margin-right: 500px;
+color: white;
+font-family: 'Vollkorn', serif;
 }
 h1{
-text-align: center;
+text-align: left;
+color: white;
+font-family: 'Francois One', sans-serif;
+margin-left: 600px;
+line-height: 10px
 }
 h2{
-text-align: center;
+text-align: left;
+color: white;
+font-family: 'Vollkorn', serif;
+margin-left: 600px;
+line-height: 10px
 }
 h3{
-text-align: center;
+text-align: left;
+color: white;
+font-family: 'Vollkorn', serif;
+margin-left: 600px;
+line-height: 10px
 }
 h4{
-text-align: center;
+text-align: left;
+color: white;
+font-family: 'Vollkorn', serif;
+margin-left: 600px;
+line-height: 10px
+}
+body{
+  background-color: tomato;
 }
