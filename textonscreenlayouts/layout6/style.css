@@ -1,17 +1,30 @@
 p{
-text-indent: 2vw;
-margin-left: 10vw;
-margin-right: 10vw;
+text-indent: 20px;
+margin-left: 10px;
+margin-right: 800px;
+font-family: 'Francois One', sans-serif;
+line-height: 20px;
 }
 h1{
-text-align: center;
+text-align: left;
+font-family: 'Francois One', sans-serif;
+display: inline;
 }
 h2{
-text-align: center;
+text-align: left;
+font-family: 'Francois One', sans-serif;
+display: inline;
 }
 h3{
-text-align: center;
+text-align: left;
+font-family: 'Francois One', sans-serif;
+display: inline;
 }
 h4{
-text-align: center;
+text-align: left;
+font-family: 'Francois One', sans-serif;
+display: inline;
+}
+body {
+  background-color: #85bfe2;
 }
