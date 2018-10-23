@@ -1,0 +1,88 @@
+body{
+  background-color: #fff7e2;
+  margin: 100px 25%
+}
+h1{
+  font-size: 3.1vw;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom:0px;
+  margin-bottom: 0px;
+  line-height: 2.5vw;
+}
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: bold;
+  font-size: 1.7vw;
+}
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-size: 1vw;
+  padding-top: 15px;
+  margin-top: 0px;
+}
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: bold;
+  font-size: 1.5vw;
+  margin-top: 1px;
+  margin-bottom: 3vw;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+}
+ul {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+}
+.underline {
+  text-decoration: underline;
+}
+.indent {
+  text-indent: 50px;
+}
+@media only screen and (max-width: 600px) {
+    body{
+  background-color: #fff7e2;
+  margin: 100px 10%
+    }
+    h1{
+      font-size: 8vw;
+      font-family: 'Oswald', sans-serif;
+      padding-bottom:0px;
+      margin-bottom: 0px;
+      line-height: 8vw;
+    }
+    h2{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: bold;
+      font-size: 3vw;
+    }
+    h3{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: italic;
+      font-size: 2.5vw;
+      padding-top: 15px;
+      margin-top: 0px;
+    }
+    h4{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: bold;
+      font-size: 2.5vw;
+    }
+    p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vw;
+    }
+    ul {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vw;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    .indent {
+      text-indent: 50px;
+    }
+}
