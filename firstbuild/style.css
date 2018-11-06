@@ -31,6 +31,7 @@ a {
 .topbartext {
   color: white;
   font-size: 40px;
+  font-family: 'Patua One', cursive;
 }
 .body {
   text-align: left;
@@ -50,13 +51,18 @@ a {
   text-indent: 400px;
 }
 .bodytext {
-  font-size: 28px;
+  font-size: 24px;
+  font-family: 'Noticia Text', serif;
 }
 .image {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+#equation {
+    height: 88px;
+    width: 715px;
+  }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .white {
     background-color: white;
@@ -102,6 +108,10 @@ a {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+  }
+  #equation {
+    height: 66px;
+    width: 536px;
   }
   body {
     background-color: white;
@@ -152,6 +162,10 @@ a {
       align-items: center;
       justify-content: center;
     }
+    #equation {
+    height: 88px;
+    width: 715px;
+  }
 body {
       background-color: white;
     }
@@ -182,4 +196,8 @@ body {
       margin-right: 650px;
       margin-top: 25px;
     }
+    #equation {
+    height: 88px;
+    width: 715px;
+  }
 }
