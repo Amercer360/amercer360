@@ -27,6 +27,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 5px 10px;
 }
 .topbartext {
   color: white;
@@ -74,7 +75,7 @@ a {
   }
   .topbar {
     height: 90px;
-    width: 640px;
+    width: 100%;
     background-color: #0072bc;
     border-radius: 10px;
     position: relative;
@@ -82,6 +83,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    box-shadow: 5px 10px;
   }
   .bodytext {
     font-size: 28px;
@@ -128,7 +131,7 @@ a {
     }
     .topbar {
       height: 90px;
-      width: 769px;
+      width: 90%;
       background-color: #0072bc;
       border-radius: 10px;
       position: relative;
@@ -136,6 +139,8 @@ a {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin: auto;
+      box-shadow: 5px 10px;
     }
     .bodytext {
       font-size: 28px;
