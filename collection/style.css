@@ -1,0 +1,43 @@
+body {
+  background-color: #cbc9ad;
+}
+a {
+  color: #0072bc;
+  text-decoration: underline;
+}
+div {
+  float: left;
+}
+.sidebar {
+  background-color: #0d1b2a;
+  width: 20vw;
+  height: 2000px;
+  position: relative;
+  left: -8px;
+  top: -70px;
+}
+#sidebartext {
+  color: #7f7f7f;
+  margin: auto
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  font-size: 70px
+}
+#sidebarline {
+  color: #7f7f7f;
+  margin: auto
+  position: -webkit-sticky;
+  position: sticky;
+  top: 350px;
+  font-size: 30px
+}
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+#margins {
+  margin-top: 20px;
+}
