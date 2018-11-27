@@ -1,5 +1,6 @@
 body {
   background-color: #cbc9ad;
+  margin: 0;
 }
 a {
   color: #0072bc;
@@ -11,33 +12,45 @@ div {
 .sidebar {
   background-color: #0d1b2a;
   width: 20vw;
-  height: 2000px;
-  position: relative;
-  left: -8px;
-  top: -70px;
+  height: 100vh;
+  position: fixed;
 }
-#sidebartext {
-  color: #7f7f7f;
-  margin: auto
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
-  font-size: 70px
+.thumbs {
+  width: 80vw;
+  height: 100vw;
+  margin-left: 20vw;
 }
-#sidebarline {
-  color: #7f7f7f;
-  margin: auto
-  position: -webkit-sticky;
-  position: sticky;
-  top: 350px;
-  font-size: 30px
-}
-#center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
 }
-#margins {
+.ports {
+  padding-top: 20px;
+  padding-left: 3vw;
+  margin: 0 auto;
+}
+#sidebartext {
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 70px;
+}
+#sidebarline {
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 30px;
+}
+#funeral {
+  width: 45%;
+  margin-left: 3vw;
+  margin-top: 20px;
+}
+#execution {
+  width: 90%;
+}
+#square1 {
+  width: 45%;
+  margin-left: 3vw;
   margin-top: 20px;
 }
