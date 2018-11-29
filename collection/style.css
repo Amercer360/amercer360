@@ -4,7 +4,7 @@ body {
 }
 a {
   color: #0072bc;
-  text-decoration: underline;
+  text-decoration: none;
 }
 div {
   float: left;
@@ -14,10 +14,15 @@ div {
   width: 20vw;
   height: 100vh;
   position: fixed;
+  text-align: center;
 }
 .thumbs {
   width: 80vw;
   height: 100vw;
+  margin-left: 20vw;
+}
+.detail {
+  width: 80vw;
   margin-left: 20vw;
 }
 .center {
@@ -48,6 +53,9 @@ div {
 }
 #execution {
   width: 90%;
+}
+#executiondetail {
+  width: 99%;
 }
 #square1 {
   width: 45%;
