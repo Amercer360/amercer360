@@ -93,7 +93,13 @@ div {
   margin-top: -1vw;
 }
 #sitting1detail {
-  height: 99vh;
+  height: 85vh;
+}
+#otherdetail {
+  height: 85vh;
+}
+#specialdetail {
+  height: 85vh;
 }
 #captain {
   width: 44.4%;
@@ -143,6 +149,12 @@ div {
     height: 300px;
     text-align: center;
     position: relative;
+  }
+  #otherdetail {
+    height: 60vh;
+  }
+  #specialdetail {
+    height: 45vh;
   }
   #sidebartext {
     color: #7f7f7f;
